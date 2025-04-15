@@ -117,14 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\fire.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="you-are-an-idiot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\you-are-an-idiot.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="you-are-an-idiot-long" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\you-are-an-idiot-long.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <metadata name="countdownTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="challengeTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>218, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        //8AAP//AADz7AAA//+AAOy4wAD/7OAAAQE=
+</value>
   </data>
 </root>

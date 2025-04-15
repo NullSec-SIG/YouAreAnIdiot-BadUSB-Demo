@@ -63,6 +63,16 @@ namespace YouAreAnIdiot_UnFlash.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] fire {
+            get {
+                object obj = ResourceManager.GetObject("fire", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] you_are_an_idiot {
             get {
                 object obj = ResourceManager.GetObject("you-are-an-idiot", resourceCulture);

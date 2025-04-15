@@ -12,6 +12,8 @@ namespace YouAreAnIdiot_UnFlash
     {
         IWavePlayer waveOutStart = new WaveOut();
 
+        internal static bool CloseGracefully = false;
+
         public Question()
         {
             InitializeComponent();
@@ -75,16 +77,18 @@ namespace YouAreAnIdiot_UnFlash
                 waveOut.Play();
                 waveOut.PlaybackStopped += WaveOut_PlaybackStopped;
             }
-            HAHA haha1 = new HAHA();
-            HAHA haha2 = new HAHA();
-            HAHA haha3 = new HAHA();
-            HAHA haha4 = new HAHA();
-            HAHA haha5 = new HAHA();
-            HAHA haha6 = new HAHA();
-            HAHA haha7 = new HAHA();
-            HAHA haha8 = new HAHA();
-            HAHA haha9 = new HAHA();
-            HAHA haha10 = new HAHA();
+            Challenge challenge = new Challenge(waveOut);
+            challenge.Show();
+            HAHA haha1 = new HAHA(challenge);
+            HAHA haha2 = new HAHA(challenge);
+            HAHA haha3 = new HAHA(challenge);
+            HAHA haha4 = new HAHA(challenge);
+            HAHA haha5 = new HAHA(challenge);
+            HAHA haha6 = new HAHA(challenge);
+            HAHA haha7 = new HAHA(challenge);
+            HAHA haha8 = new HAHA(challenge);
+            HAHA haha9 = new HAHA(challenge);
+            HAHA haha10 = new HAHA(challenge);
             haha1.Show();
             haha2.Show();
             haha3.Show();
