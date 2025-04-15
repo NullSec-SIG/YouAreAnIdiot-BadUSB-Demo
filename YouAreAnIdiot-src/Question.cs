@@ -78,7 +78,6 @@ namespace YouAreAnIdiot_UnFlash
                 waveOut.PlaybackStopped += WaveOut_PlaybackStopped;
             }
             Challenge challenge = new Challenge(waveOut);
-            challenge.Show();
             HAHA haha1 = new HAHA(challenge);
             HAHA haha2 = new HAHA(challenge);
             HAHA haha3 = new HAHA(challenge);
@@ -99,6 +98,7 @@ namespace YouAreAnIdiot_UnFlash
             haha8.Show();
             haha9.Show();
             haha10.Show();
+            challenge.Show();
             this.Hide();
         }
 
