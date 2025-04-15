@@ -80,11 +80,21 @@ namespace YouAreAnIdiot_UnFlash
             HAHA haha3 = new HAHA();
             HAHA haha4 = new HAHA();
             HAHA haha5 = new HAHA();
+            HAHA haha6 = new HAHA();
+            HAHA haha7 = new HAHA();
+            HAHA haha8 = new HAHA();
+            HAHA haha9 = new HAHA();
+            HAHA haha10 = new HAHA();
             haha1.Show();
             haha2.Show();
             haha3.Show();
             haha4.Show();
             haha5.Show();
+            haha6.Show();
+            haha7.Show();
+            haha8.Show();
+            haha9.Show();
+            haha10.Show();
             this.Hide();
         }
 
