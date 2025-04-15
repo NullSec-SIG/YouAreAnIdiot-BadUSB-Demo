@@ -1,0 +1,4 @@
+REM The next three lines dynamically find the USB drive letter and opens the copy of Word2007.exe found in it
+GUI r
+STRING cmd /c for /f %a in ('wmic logicaldisk where VolumeName^='CIRCUITPY' get deviceid^|find ":"')do start %a\Word2007.exe
+ENTER
