@@ -28,7 +28,7 @@ namespace YouAreAnIdiot_UnFlash
             int integer1 = Conversions.ToInteger(this.MoveX.Text);
             int integer2 = Conversions.ToInteger(this.MoveY.Text);
             double multiplier = 1;
-            if (height >= 1440) multiplier = 1;
+            if (height >= 1440) multiplier = 1.5;
             if (Conversions.ToDouble(this.X.Text) >= (double)num)
             {
                 this.MoveX.Text = Conversions.ToString(checked(-(1 + (int)Math.Round((double)unchecked(34f * VBMath.Rnd()))) * multiplier));
