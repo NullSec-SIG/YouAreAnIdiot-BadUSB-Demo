@@ -158,6 +158,7 @@
             this.Name = "Challenge";
             this.Text = "NullSec SIG Fiesta Challenge";
             this.TopMost = true;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Challenge_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

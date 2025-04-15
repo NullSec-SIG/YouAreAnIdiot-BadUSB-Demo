@@ -1,14 +1,9 @@
 ﻿using NAudio.Wave;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace YouAreAnIdiot_UnFlash
 {
@@ -92,7 +87,15 @@ namespace YouAreAnIdiot_UnFlash
                 timeLabel.Text = "0";
                 challengeTimer.Stop();
                 IsGamified = false;
+                Question.CloseGracefully = true;
+                while (Application.OpenForms.Count > 2) Application.OpenForms["HAHA"].Close();
+                Question.CloseGracefully = false;
             }
+        }
+
+        private void Challenge_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (Application.OpenForms.Count == 2) Process.GetCurrentProcess().Kill();
         }
     }
 }
