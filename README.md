@@ -16,6 +16,7 @@ We are not going to provide compiled versions of the binary, but you can compile
 
 ## Contributors
 Special thanks to all those who were involved in the conceivement of this idea:
+### Original Development
 - Orange Group Tech (@orangegrouptech) for helping us rewrite the original YouAreAnIdiot.exe to work without Adobe Flash Player
 ### NullSec Tech Team
 - Daksh (@DakshRocks21) for coming up with the idea to use a BadUSB for the demo, as well as helping with initial research
