@@ -1,5 +1,6 @@
 # YouAreAnIdiot BadUSB Demo
 Custom remix of YouAreAnIdiot-UnFlash by @orangegrouptech for NullSec SIG's booth at SIG Fiesta 2025.
+![DSC05769](https://github.com/user-attachments/assets/5aa4ecec-b09d-4a86-ba55-576be956eaeb)
 
 ## Contents
 Included are the files we used to deliver the payload via our Raspberry Pi Pico 2s, including the DuckyScript used to run the payload as well as the source code of the customised version of YouAreAnIdiot-UnFlash itself.
