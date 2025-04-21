@@ -1,6 +1,8 @@
 # YouAreAnIdiot BadUSB Demo
 Custom remix of YouAreAnIdiot-UnFlash by @orangegrouptech for NullSec SIG's booth at SIG Fiesta 2025.
 ![DSC05769](https://github.com/user-attachments/assets/5aa4ecec-b09d-4a86-ba55-576be956eaeb)
+![DSC05682](https://github.com/user-attachments/assets/43ca78ef-d5ee-4164-9fe5-c11bbf10bddf)
+
 
 ## Contents
 Included are the files we used to deliver the payload via our Raspberry Pi Pico 2s, including the DuckyScript used to run the payload as well as the source code of the customised version of YouAreAnIdiot-UnFlash itself.
@@ -18,7 +20,7 @@ We are not going to provide compiled versions of the binary, but you can compile
 ## Contributors
 Special thanks to all those who were involved in the conceivement of this idea:
 ### Original Development
-- Orange Group Tech (@orangegrouptech) for helping us rewrite the original YouAreAnIdiot.exe to work without Adobe Flash Player
+- Orange Group Tech (@orangegrouptech) for helping us rewrite the original YouAreAnIdiot.exe to work without Adobe Flash Player (https://github.com/orangegrouptech/YouAreAnIdiot-UnFlash)
 ### NullSec Tech Team
 - Daksh (@DakshRocks21) for coming up with the idea to use a BadUSB for the demo, as well as helping with initial research
 - Chin Ray (@ChinRayTan) for the main development work on the customised version of YouAreAnIdiot-UnFlash
